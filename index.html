@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gerador de Ticket</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Gerador de Ticket</h1>
+    <form id="ticketForm">
+        <label for="titulo">Título do Ticket:</label>
+        <input type="text" id="titulo" name="titulo" required>
+        
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" required></textarea>
+        
+        <button type="submit">Gerar Ticket</button>
+    </form>
+    
+    <div id="tickets"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
